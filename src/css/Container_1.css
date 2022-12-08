@@ -1,0 +1,26 @@
+.Container_1 {
+    /* background-color: rgb(12, 221, 221); */
+    background: url('../../fon.png') center / auto 130% no-repeat fixed;
+    position: relative;
+}
+
+
+
+.Container_1 span {
+    font-size: 90px;
+    margin: 0 auto;
+    font-family: 'beer money';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    /* background: linear-gradient(to right, blue, pink); */
+    color: rgb(255, 119, 0);
+    color: rgb(241, 0, 0);
+    transform: translate(-50%, -50%);
+    transition: 3s ease-in;
+
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    opacity: 0;
+}
+
+/* .test {} */

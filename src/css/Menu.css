@@ -1,0 +1,39 @@
+.Menu {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    padding: 2px;
+
+    /* background-color: rgb(180, 83, 28); */
+    justify-content: space-between;
+}
+
+.Menu div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Menu p {
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 16px;
+    margin: 6px;
+    border-radius: 5px;
+    padding: 0 4px 3px 4px;
+    background-color: rgba(0, 0, 0, 0.208);
+    box-shadow: 3px 3px 5px rgb(50, 2, 2);
+}
+
+.Menu img {
+    margin-left: 20px;
+    width: 50px;
+}
+
+.Menu p:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
