@@ -8,19 +8,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .Container_1 span {
     font-size: 200px;
     /* font-family: 'beer_money_regular'; */
-
-    /* transition: 3s ease-in; */
+    /* font-size: calc(11px+(200-11)*((100vw-320px)/(1200-320))); */
+    transition: 3s ease-in;
     color: rgb(255, 119, 0);
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 
 
     position: absolute;
-    bottom: 45%;
+    bottom: 50%;
     opacity: 0.9;
 }
 
@@ -29,4 +30,10 @@
     opacity: 0;
 }
 
-/* @media handheld */
+@media (max-width:400px) {
+    .Container_1 span {
+        /* font-size: calc(11px+(200-11)*((100vw-320px)/(1200-320))); */
+        font-size: 48px;
+
+    }
+}
