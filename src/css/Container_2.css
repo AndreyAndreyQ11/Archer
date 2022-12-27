@@ -1,9 +1,12 @@
 .Container_2 {
-    background: salmon;
-    background: OliveDrab;
+    background-color: Lavender;
 
-    /* align-items: stretch;
-    justify-content: center; */
+    /* background: OliveDrab; */
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* justify-content: center; */
 
 }
 
@@ -12,7 +15,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* width: 100%; */
+    filter: drop-shadow(15px 15px 10px rgba(34, 55, 1, 0.686));
 }
 
 
