@@ -34,7 +34,7 @@
 .column_1 {
     background: url('../../img/bundle.png') top /100% auto no-repeat;
     height: 100px;
-    width: 71%;
+    width: 76%;
 
     position: absolute;
     top: 0px;
@@ -46,7 +46,7 @@
     background: url('../../img/bundle.png') top /100% auto no-repeat;
 
     height: 100px;
-    width: 71%;
+    width: 76%;
 
     position: absolute;
     bottom: 0px;
@@ -61,7 +61,7 @@
     text-align: justify;
     flex-direction: column;
 
-    width: 60%;
+    width: 65%;
     padding: 50px 20px 50px 20px;
     margin: 20px 0 20px 0;
 

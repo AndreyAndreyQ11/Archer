@@ -33,7 +33,7 @@
 @media (max-width:600px) {
     .Container_1 span {
         /* font-size: calc(11px+(200-11)*((100vw-320px)/(1200-320))); */
-        font-size: 48px;
+        font-size: 52px;
 
     }
 }
