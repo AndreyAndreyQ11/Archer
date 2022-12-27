@@ -1,13 +1,8 @@
-.Container_2 {
+.Section_2 {
     background-color: Lavender;
-
-    /* background: OliveDrab; */
+    /* background-color: Lavender; */
     display: flex;
-    /* align-items: flex-start; */
     align-items: center;
-    /* align-items: stretch; */
-    /* justify-content: center; */
-
 }
 
 .content {
@@ -34,7 +29,7 @@
 .column_1 {
     background: url('../../img/bundle.png') top /100% auto no-repeat;
     height: 100px;
-    width: 76%;
+    width: 90%;
 
     position: absolute;
     top: 0px;
@@ -46,7 +41,7 @@
     background: url('../../img/bundle.png') top /100% auto no-repeat;
 
     height: 100px;
-    width: 76%;
+    width: 90%;
 
     position: absolute;
     bottom: 0px;
@@ -61,7 +56,7 @@
     text-align: justify;
     flex-direction: column;
 
-    width: 65%;
+    width: 77%;
     padding: 50px 20px 50px 20px;
     margin: 20px 0 20px 0;
 

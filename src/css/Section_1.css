@@ -2,7 +2,7 @@
 
 
 
-.Container_1 {
+.Section_1 {
     background: url('../../img/fon.png') center / auto 130% no-repeat fixed;
     position: relative;
     display: flex;
@@ -11,7 +11,7 @@
 
 }
 
-.Container_1 span {
+.Section_1 span {
     font-size: 200px;
     /* font-family: 'beer_money_regular'; */
     /* font-size: calc(11px+(200-11)*((100vw-320px)/(1200-320))); */
@@ -25,15 +25,15 @@
     opacity: 0.9;
 }
 
-.Container_1 .start {
+.Section_1 .start {
     bottom: 0%;
     opacity: 0;
 }
 
 @media (max-width:600px) {
-    .Container_1 span {
+    .Section_1 span {
         /* font-size: calc(11px+(200-11)*((100vw-320px)/(1200-320))); */
-        font-size: 52px;
+        font-size: 65px;
 
     }
 }

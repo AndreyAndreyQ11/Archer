@@ -1,6 +1,6 @@
 
 
-const tradition = document.querySelector('.Container_1 span');
+const tradition = document.querySelector('.Section_1 span');
 
 
 // ГО традиция
