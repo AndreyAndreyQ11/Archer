@@ -1,7 +1,7 @@
 .Container_2 {
     background: salmon;
-    display: flex;
-    align-items: center;
+    background: OliveDrab;
+
     /* align-items: stretch;
     justify-content: center; */
 
@@ -10,34 +10,59 @@
 .content {
     position: relative;
     display: flex;
-    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
     /* width: 100%; */
 }
 
-.content div {
-    border: 2px solid rgb(0, 0, 0);
-    flex-grow: 1;
-}
 
-.column_1 {
+/* .column_1 {
     background: url('../../img/foto1.jpg') center /100% auto no-repeat;
     background-color: SaddleBrown;
-}
 
-.column_2 {
-    display: flex;
-    text-align: justify;
-    padding: 16px;
-    flex-direction: column;
-    width: 35%;
-
-    background-color: OliveDrab;
-    text-shadow: 1px 0px 12px rgb(183, 226, 96);
-}
 
 .column_3 {
     background: url('../../img/foto2.jpg') center /100% auto no-repeat;
     background-color: SaddleBrown;
+}
+
+} */
+
+.column_1 {
+    background: url('../../img/bundle.png') top /100% auto no-repeat;
+    height: 100px;
+    width: 71%;
+
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.column_3 {
+    background: url('../../img/bundle.png') top /100% auto no-repeat;
+
+    height: 100px;
+    width: 71%;
+
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+
+    transform: rotate(180deg) translate(50%, 0);
+}
+
+.column_2 {
+    background: url('../../img/papyrus.png') top /100% auto repeat-y;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+
+    width: 60%;
+    padding: 50px 20px 50px 20px;
+    margin: 20px 0 20px 0;
+
+    text-shadow: 1px 0px 12px rgba(56, 30, 3, 0.518);
 }
 
 .column_2 h2 {
@@ -55,4 +80,13 @@
 .column_2 .p2 {
 
     font-weight: 700;
+}
+
+.test {
+    border: 5px solid rgb(0, 0, 0);
+    display: block;
+    width: 100vw;
+    background: url('../../img/papyrus.png') top /200px auto repeat-y;
+
+    height: 60000px;
 }
