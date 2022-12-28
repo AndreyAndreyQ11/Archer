@@ -3,88 +3,82 @@
     /* background-color: Lavender; */
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.content {
-    position: relative;
+.papyrus {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
     filter: drop-shadow(15px 15px 10px rgba(34, 55, 1, 0.686));
+    border: 1px solid rgb(0, 0, 0);
+
 }
 
 
-/* .column_1 {
-    background: url('../../img/foto1.jpg') center /100% auto no-repeat;
-    background-color: SaddleBrown;
-
-
-.column_3 {
-    background: url('../../img/foto2.jpg') center /100% auto no-repeat;
-    background-color: SaddleBrown;
-}
-
-} */
-
-.column_1 {
-    background: url('../../img/bundle.png') top /100% auto no-repeat;
-    height: 100px;
-    width: 90%;
-
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.column_3 {
-    background: url('../../img/bundle.png') top /100% auto no-repeat;
-
-    height: 100px;
-    width: 90%;
-
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-
-    transform: rotate(180deg) translate(50%, 0);
-}
-
-.column_2 {
+.bundle {
     background: url('../../img/papyrus.png') top /100% auto repeat-y;
     display: flex;
     text-align: justify;
     flex-direction: column;
 
+    position: relative;
+
     width: 77%;
-    padding: 50px 20px 50px 20px;
+    max-width: 800px;
+
+    height: 100px;
+}
+
+.bundle:after {
+    content: '';
+    background: url('../../img/bundle.png') top /100% auto no-repeat;
+    position: absolute;
+
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 120%;
+    height: 150px;
+}
+
+.bundle::before {
+    content: '';
+    background: url('../../img/bundle.png') top /100% auto no-repeat;
+    position: absolute;
+
+    bottom: -25px;
+    left: 50%;
+    transform: rotate(180deg) translate(50%, 0);
+
+    width: 120%;
+    height: 150px;
+}
+
+.text {
+    padding: 20px 20px 20px 20px;
     margin: 20px 0 20px 0;
 
     text-shadow: 1px 0px 12px rgba(56, 30, 3, 0.518);
+
+    overflow: hidden;
+
 }
 
-.column_2 h2 {
+.text h2 {
 
     text-align: center;
     font-size: 26px;
 }
 
-.column_2 p {
+.text p {
     text-indent: 30px;
     font-size: 18px;
     padding-top: 8px;
 }
 
-.column_2 .p2 {
+.text .p2 {
 
     font-weight: 700;
-}
-
-.test {
-    border: 5px solid rgb(0, 0, 0);
-    display: block;
-    width: 100vw;
-    background: url('../../img/papyrus.png') top /200px auto repeat-y;
-
-    height: 60000px;
 }
