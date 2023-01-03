@@ -24,22 +24,22 @@ const Menu = document.querySelector(".Menu")
 
 const bundle = document.querySelector("#bundle");
 const options = {
-    rootMargin: '0px',
+    // rootMargin: "0px 0px -50 % 0px",
+    // rootMargin: "-50px 0px -50px 0px",
+    rootMargin: "-25%",
     threshold: 0
-};
+}
 
 
 
 const callback = function (entries, observer) {
-    console.log(entries);
-    console.log(observer);
-
-
-
-    // entries.forEach(element => {
-    //     // console.log("сработало_2", element, observer);
-    //     console.log("сработало_2", element.isIntersecting);
-    // });
+    console.log(entries[0].isIntersecting);
+    if (entries[0].isIntersecting) {
+        // bundle.style.height = '500px';
+        bundle.style.height = '550px';
+    } else {
+        bundle.style.height = '100px';
+    }
 
 }
 
