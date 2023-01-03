@@ -1,4 +1,4 @@
-
+//Section_1
 
 const tradition = document.querySelector('.Section_1 span');
 // ГО традиция
@@ -12,15 +12,15 @@ window.addEventListener("load", function (event) {
     // `;
 });
 
-const Menu = document.querySelector(".Menu")
+/*const Menu = document.querySelector(".Menu")
+document.addEventListener("scroll", (ev) => {
+    let body = document.querySelector("body")
 
-// document.addEventListener("scroll", (ev) => {
-//     let body = document.querySelector("body")
+    // console.dir(document);
+})
+*/
 
-//     // console.dir(document);
-// })
-///////////////////////////////////////
-
+//Section_2
 
 const bundle = document.querySelector("#bundle");
 const options = {
@@ -45,3 +45,6 @@ const callback = function (entries, observer) {
 
 let observer = new IntersectionObserver(callback, options);
 observer.observe(bundle);
+
+
+//Section_3
