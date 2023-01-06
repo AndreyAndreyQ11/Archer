@@ -1,3 +1,4 @@
+
 //Section_1
 
 const tradition = document.querySelector('.Section_1 span');
@@ -5,7 +6,7 @@ const tradition = document.querySelector('.Section_1 span');
 window.addEventListener("load", function (event) {
     tradition.classList.remove("start");
 
-    console.log(tradition);
+
     // tradition.style.cssText = `
     // top: 50%;
     // opacity: 1;
@@ -33,7 +34,7 @@ const options = {
 
 
 const callback = function (entries, observer) {
-    console.log(entries[0].isIntersecting);
+
     if (entries[0].isIntersecting) {
         // bundle.style.height = '500px';
         bundle.style.height = '550px';
@@ -48,3 +49,39 @@ observer.observe(bundle);
 
 
 //Section_3
+
+
+import data from './data.json' assert { type: "json" };
+
+
+
+const Section_3 = document.querySelector(".Section_3");
+
+data.forEach((el, index, arrey) => {
+    Section_3.insertAdjacentHTML("beforeend", `
+    <div class="merch">
+    <h3>${el.title}</h3>
+    <img src=${el.url} alt="#" />
+
+    <p>
+    ${el.description}
+    </p>
+
+    <p>
+        Цена: <span> ${el.price}</span> грн.
+    </p>
+
+    <form action="#">
+        <span>Заказать</span><input type="number" />
+        <button>Отправить заявку</button>
+    </form>
+
+    </div > 
+    `
+    )
+})
+
+
+
+
+
