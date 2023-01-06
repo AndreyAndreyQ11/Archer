@@ -8,11 +8,72 @@
 
 
 .merch {
-    border: 11px solid rgb(232, 8, 8);
+    border: 11px solid rgb(19, 87, 0);
+    border-radius: 5%;
+    box-shadow: 7px 5px 5px rgba(19, 87, 0, 0.425);
+
+
+    padding: 5px;
     font-size: 30px;
     display: inline-block;
     width: 50%;
     margin: 20px auto 0 auto;
+    /* height: 210px; */
+    text-align: center
+}
 
-    height: 210px;
+.merch h3 {
+
+    text-shadow: 5px 4px 5px rgba(66, 33, 2, 0.649);
+
+}
+
+.merch img {
+    border: 6px solid rgb(223, 109, 4);
+    box-shadow: 5px 4px 5px rgba(188, 92, 3, 0.649);
+    border-radius: 10%;
+    width: 90%;
+    margin: 10px;
+}
+
+.merch p {
+    text-align: justify;
+    /* word-spacing: 20px; */
+
+    text-indent: 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding: 0 0 5px 0;
+}
+
+form {
+
+    display: flex;
+    align-items: center;
+
+}
+
+form span {
+
+    text-indent: 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+form button {
+    font-size: 20px;
+    border: 4px solid rgb(19, 87, 0);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(43, 200, 0);
+}
+
+form input {
+    min-width: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 10px;
 }
