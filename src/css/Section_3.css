@@ -19,7 +19,7 @@
     display: inline-block;
     width: 80%;
     margin: 20px auto 0 auto;
-    /* height: 210px; */
+
     text-align: center
 }
 
@@ -39,7 +39,6 @@
 
 .merch p {
     text-align: justify;
-    /* word-spacing: 20px; */
 
     text-indent: 30px;
     font-size: 16px;
@@ -72,7 +71,6 @@ form button {
     padding: 5px;
     background-color: rgb(43, 200, 0);
     transition: 2s;
-    /* box-shadow: 5px 4px 5px rgba(19, 87, 0, 0.642); */
 }
 
 form input {
@@ -84,4 +82,8 @@ form input {
 
 form button:hover {
     box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.642);
+}
+
+.test {
+    transform: rotate(45deg);
 }
